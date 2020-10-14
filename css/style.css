@@ -190,7 +190,8 @@ header{
 
   /* Cards! */
   .card {
-    /*Your  code here again.*/
+    display:flex;
+    flex-basis: 225px;
   }
 
   .card_big{
@@ -200,11 +201,17 @@ header{
 
   /* Navbar */
   header{
-    /*Your code here again.*/  
+    display:flex;
+    flex-direction: row;
+    /* justify-content: left; */
   }
 
   .nav_links{
-    /*Your code here again.*/  
+    display:flex;
+    flex-direction: row !important;
+    
+  
+    /* align-items:space-between; */
   }
 
   .nav_item a{

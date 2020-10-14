@@ -67,9 +67,7 @@ footer{
 #logo{
   animation-name: logo_wiggle;
   animation-duration: 15s;
-  animation-iteration-count: 1;
-  
- 
+  /* animation-iteration-count: 1; */
 }
 
 /* Cards! */

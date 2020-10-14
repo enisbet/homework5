@@ -138,6 +138,8 @@ footer{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .gallery > img{

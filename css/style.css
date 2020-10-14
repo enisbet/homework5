@@ -77,7 +77,7 @@ footer{
     min-height: 500px;
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
    
     flex-wrap: wrap;
     
@@ -202,12 +202,10 @@ header{
 
   /* Navbar */
   header{
-    display:flex;
+    /* display:flex; */
     flex-direction: row;
-    align-items:flex-start;
-    justify-content:flex-start;
-    
-    /* justify-content: left; */
+    /* align-items: space-between; */
+    justify-content:flex-end; 
   }
 
   .nav_links{

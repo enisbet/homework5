@@ -203,6 +203,7 @@ header{
   /* Navbar */
   header{
     display:flex;
+    flex-direction: row;
     align-items:flex-start;
     justify-content:flex-start;
     
@@ -227,6 +228,19 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  body{
+    background-image: none !important;
+  }
+  .pricing{
+    align-items:top !important;
+  }
+  .gallery{
+    display: none;
+  }
+  #gallery{
+    display:none;
+  }
+
 }
 
 /*Your code here again.*/ 

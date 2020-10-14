@@ -140,6 +140,7 @@ footer{
   /*Your code here again.*/
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .gallery > img{

@@ -225,7 +225,7 @@ header{
     background-image: none !important;
   }
   .pricing{
-    align-items:top !important;
+    align-items:flex-start !important;
   }
   .gallery{
     display: none;
